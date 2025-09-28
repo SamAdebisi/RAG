@@ -60,7 +60,7 @@ async def when_chat_starts():
   await cl.sleep(2)
   # Create retriever object based on uploaded PDFs
   retriever = configure_retriever(uploaded_files)
-  msg = cl.Message(content=f"Processing completed. You can now ask questions!", disable_feedback=True)
+  msg = cl.Message(content=f"Processing completed. You can now ask questions!") #, disable_feedback=True)
   await msg.send()
 
   # Load a connection to ChatGPT LLM

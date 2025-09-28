@@ -1,1 +1,5 @@
 chatgpt_api_credentials.yml
+ngrok_credentials.yml
+__pycache__
+.venv
+.chainlit
